@@ -760,7 +760,7 @@ mod query;
 mod row;
 mod stream;
 mod txn;
-mod types;
+pub mod types;
 mod version;
 
 pub use crate::config::{config, Config, ConfigBuilder};
